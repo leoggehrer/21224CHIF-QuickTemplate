@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTemplate.Logic", "QuickTemplate.Logic\QuickTemplate.Logic.csproj", "{77910D71-BB3B-4879-822B-510A3006280A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTemplate.ConApp", "QuickTemplate.ConApp\QuickTemplate.ConApp.csproj", "{10C07112-8F09-4860-9BCA-288B487170E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77910D71-BB3B-4879-822B-510A3006280A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77910D71-BB3B-4879-822B-510A3006280A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77910D71-BB3B-4879-822B-510A3006280A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77910D71-BB3B-4879-822B-510A3006280A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C07112-8F09-4860-9BCA-288B487170E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C07112-8F09-4860-9BCA-288B487170E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C07112-8F09-4860-9BCA-288B487170E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C07112-8F09-4860-9BCA-288B487170E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48C81E6E-90EA-4551-964A-BA610F71CF44}
+	EndGlobalSection
+EndGlobal
