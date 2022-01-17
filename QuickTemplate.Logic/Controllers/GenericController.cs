@@ -20,7 +20,8 @@ namespace QuickTemplate.Logic.Controllers
         {
         }
 
-        public virtual DbSet<E> Set => Context.GetDbSet<E>();
+        private DbSet<E> dbSet = null;
+        protected virtual DbSet<E> Set => dbSet ??= Context.GetDbSet<E>();
 
         public virtual async Task<E> GetByIdAsync(int id)
         {

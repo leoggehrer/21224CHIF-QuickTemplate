@@ -25,6 +25,10 @@ namespace QuickTemplate.Logic.DataContext
             {
                 result = AlbumSet as DbSet<E>;
             }
+            else
+            {
+                result = Set<E>();
+            }
             return result;
         }
 
